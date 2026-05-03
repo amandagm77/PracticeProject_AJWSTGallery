@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
     text-align: center;
     color: white;
@@ -137,4 +140,61 @@ footer {
   background-position: center; /* keeps it centered */
   align-items: center;         /* vertical center */
   position: relative;
+}
+/* ===== CONTACT FORM STYLING ===== */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+}
+/* Fieldset styling */
+fieldset {
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+/* Inputs, select, textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+/* Fix radio buttons */
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+/* Textarea behavior */
+textarea {
+  resize: vertical;
+}
+/* Labels */
+label {
+  display: block;
+  margin-top: 10px;
+}
+/* Submit button */
+input[type="submit"] {
+  background-color: #00bfff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: #009acd;
 }
