@@ -5,9 +5,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 40px;
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 30px;
+}
+.hero {
+  height: 400px; /* controls banner height */
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.329), rgba(128, 0, 128, 0.205), rgba(0, 0, 255, 0.329));
+  background-size: cover;      /* fills the space */
+  background-position: center; /* keeps it centered */
+  align-items: center;         /* vertical center */
+  position: relative;
 }
 nav {
     background-color: rgba(255, 255, 255, 0.726);
@@ -36,7 +45,7 @@ ul {
 }
 p{
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .homeaboutfigure {
   max-width: 1000px; /* responsive */
